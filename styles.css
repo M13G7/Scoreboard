@@ -40,7 +40,7 @@ h1 {
     
 }
 
-#home-pt, #guest-pt {
+#home-pt, #away-pt {
     display: block;
     background-color: #080001;
     width: 155px;
@@ -52,7 +52,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.home-sb>div, .guest-sb>div {
+.home-sb>div, .away-sb>div {
     display: flex;
     justify-content: space-between;
 }

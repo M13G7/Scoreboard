@@ -1,11 +1,11 @@
 
 
 let homePt = document.getElementById("home-pt");
-let guestPt = document.getElementById("guest-pt");
+let awayPt = document.getElementById("away-pt");
 
 
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
 function add1HomePoint() {
     homeScore += 1;
@@ -23,24 +23,24 @@ function add3HomePoint() {
 }
 
 function add1GuestPoint() {
-    guestScore += 1;
-    guestPt.textContent = guestScore;
+    awayScore += 1;
+    awayPt.textContent = awayScore;
 }
 
 function add2GuestPoint() {
-    guestScore += 2;
-    guestPt.textContent = guestScore;
+    awayScore += 2;
+    awayPt.textContent = awayScore;
 }
 
 function add3GuestPoint() {
-    guestScore += 3;
-    guestPt.textContent = guestScore;
+    awayScore += 3;
+    awayPt.textContent = awayScore;
 }
 
 function clear_btn() {
     homeScore = 0;
     homePt.textContent = homeScore;
-    guestPt.textContent = homeScore;
+    awayPt.textContent = awayScore;
 }
 
 
